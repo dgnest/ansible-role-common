@@ -1,0 +1,16 @@
+---
+# Ansible playbook for a ansible-role-common
+#
+# @author @slovacus (2015).
+
+- name: Common stuff for all the server
+  hosts: all
+  sudo: yes
+  gather_facts: no
+  roles:
+    - luismayta.common
+  tags:
+    - all
+    - common
+    - authorization
+
