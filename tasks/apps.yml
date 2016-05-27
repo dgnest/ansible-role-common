@@ -9,6 +9,7 @@
     accept_hostkey: True
   with_dict: common_deployment_apps | default({})
   when: common_deployment_apps is defined
+  when: "user != 'vagrant'"
   tags:
     - apps
     - deploy

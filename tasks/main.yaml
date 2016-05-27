@@ -1,12 +1,12 @@
 ---
 
+- include: dependences.yaml
+
 - include: apps.yml
 
 - include: host.yaml
 
 - include: files.yaml
-
-- include: dependences.yaml
 
 - include: pip.yaml
 

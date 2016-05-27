@@ -3,10 +3,6 @@
 
 # common_deployment_apps update code deployment
 
-common_package_dependencies:
-  - "vim"
-  - "git"
-
 # common_create_files:
 #   - path: "{{ app_dir_home }}/.ssh"
 #     state: "directory"
@@ -27,7 +23,3 @@ common_package_dependencies:
 #     version: "{{ git.branch.deployment }}" # Could be a hash, branch or tag name
 #     repo: "git@bitbucket.com:dgnest/fbp"
 #     location: "{{ apps_path }}"
-
-common_dependencies:
-  - name: "python2.7-dev"
-    version: ""
