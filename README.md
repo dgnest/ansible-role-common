@@ -1,14 +1,12 @@
 # Ansible Role Common
 
 <span class="badges" align="center">
+[![GitHub tag](https://img.shields.io/github/tag/dgnest/ansible-role-common.svg?maxAge=2592000)](https://github.com/dgnest/ansible-role-common)
 [![Build Status](https://travis-ci.org/dgnest/ansible-role-common.svg)](https://travis-ci.org/dgnest/ansible-role-common)
-[![Stories in Ready](https://badge.waffle.io/dgnest/ansible-role-common.svg?label=ready&title=Ready)](http://waffle.io/dgnest/ansible-role-common)
 [![GitHub issues](https://img.shields.io/github/issues/dgnest/ansible-role-common.svg)](https://github.com/dgnest/ansible-role-common/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
-
-Installs and configures [common][link-common] on a host.
 
 ## Requirements
 
@@ -44,7 +42,7 @@ To install a specific version:
 
     - hosts: servers
       roles:
-         - { role: luismayta.common }
+         - { role: dgnest.common }
 
 
 ## Changelog
@@ -57,11 +55,13 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-- [Luis Mayta][link-luis]
+Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+
 - [All Contributors][link-contributors]
 
 
 <!-- Other -->
 
 [link-luis]: https://github.com/luismayta
-[link-contributors]: contributors
+[link-contributors]: AUTHORS
+[link-company]: https://github.com/dgnest
