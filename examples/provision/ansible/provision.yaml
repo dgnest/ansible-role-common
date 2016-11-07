@@ -8,7 +8,7 @@
   sudo: yes
   gather_facts: no
   roles:
-    - luismayta.common
+    - dgnest.common
   tags:
     - all
     - common
