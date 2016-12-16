@@ -3,6 +3,8 @@
 
 # common_deployment_apps update code deployment
 
+common_packages: []
+
 # common_create_files:
 #   - path: "{{ app_dir_home }}/.ssh"
 #     state: "directory"
