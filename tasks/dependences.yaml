@@ -1,7 +1,7 @@
 ---
 
 - name: Update package repositories
-  sudo: yes
+  become: true
   apt:
     update_cache: True
   tags:
@@ -9,7 +9,7 @@
     - update_cache
 
 - name: Install common package dependencies
-  sudo: yes
+  become: true
   apt:
     name: "{{ item }}"
     state: present
@@ -22,7 +22,7 @@
 - debug: var=install_common_package_dependencies.stdout_lines
 
 - name: Install common dependencies
-  sudo: yes
+  become: true
   apt:
     name: "{{ item.name }}"
     state: present

@@ -1,6 +1,6 @@
 ---
 - name: Create files
-  sudo: yes
+  become: true
   file:
     path: "{{ item.path }}"
     state: "{{ item.state }}"

@@ -1,7 +1,7 @@
 ---
 
 - name: Update apps
-  sudo_user: "{{ user }}"
+  become_user: "{{ user }}"
   git:
     repo: "{{ item.value.repo }}"
     dest: "{{ item.value.location }}"

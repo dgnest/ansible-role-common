@@ -4,7 +4,7 @@ path_inventory: provision/ansible/inventories/sandbox/production
 vagrant:
   limit: ''
   verbose: 'vvvv'
-  sudo: true
+  become: true
 
 servers:
   - name: 1.web.common.pe
