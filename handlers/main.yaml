@@ -3,6 +3,6 @@
   hostname:
     name: "{{ machine_hostname }}"
 
-- name: Export environment variables
-  shell: "export {{ item.key }}=\"{{ item.value }}\""
-  with_dict: system_env_vars
+# - name: Export environment variables
+#   shell: "export {{ item.key }}=\"{{ item.value }}\""
+#   with_dict: "{{ system_env_vars }}"
