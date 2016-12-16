@@ -5,7 +5,7 @@
 
 - name: Common stuff for all the server
   hosts: all
-  sudo: yes
+  become: true
   gather_facts: no
   roles:
     - dgnest.common
@@ -13,4 +13,3 @@
     - all
     - common
     - authorization
-
