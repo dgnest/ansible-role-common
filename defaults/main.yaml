@@ -13,12 +13,6 @@ common_packages: []
 #     state: "directory"
 #     owner: "{{ user }}"
 
-# common_git:
-#   - repository: "git@bitbucket.com:dgnest/fbp.git"
-#     name: "{{ app_name }}"
-#     branch:
-#         deployment: "develop" # Could be a hash, branch or tag name
-
 # common_deployment:
 #   project:
 #     name: "{{ app_name }}"
