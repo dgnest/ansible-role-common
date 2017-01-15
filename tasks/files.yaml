@@ -5,5 +5,5 @@
     path: "{{ item.path }}"
     state: "{{ item.state }}"
     owner: "{{ item.owner }}"
-  with_items: "{{common_create_files | default({}) }}"
+  with_items: "{{ common_create_files | default([]) }}"
   when: common_create_files is defined
