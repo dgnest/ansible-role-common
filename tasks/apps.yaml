@@ -7,7 +7,7 @@
     repo: "{{ item.value.repo }}"
     dest: "{{ item.value.location }}"
     version: "{{ item.value.version }}"
-    force: "{{ item.value.force }}"
+    force: "{{ item.value.force | default() | bool }}"
     accept_hostkey: True
   with_dict: "{{ common_deployment_apps | default({}) }}"
   when:

@@ -24,4 +24,5 @@ common_packages: []
 #     name: "{{ app_name }}"
 #     version: "{{ git.branch.deployment }}" # Could be a hash, branch or tag name
 #     repo: "git@bitbucket.com:dgnest/fbp"
+#     force: yes
 #     location: "{{ apps_path }}"
