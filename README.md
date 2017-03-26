@@ -1,12 +1,9 @@
 # Ansible Role Common
 
-<span class="badges" align="center">
-[![GitHub tag](https://img.shields.io/github/tag/dgnest/ansible-role-common.svg?maxAge=2592000)](https://github.com/dgnest/ansible-role-common)
 [![GitHub tag](https://img.shields.io/github/tag/dgnest/ansible-role-common.svg?maxAge=2592000)](https://github.com/dgnest/ansible-role-common)
 [![Build Status](https://travis-ci.org/dgnest/ansible-role-common.svg)](https://travis-ci.org/dgnest/ansible-role-common)
 [![GitHub issues](https://img.shields.io/github/issues/dgnest/ansible-role-common.svg)](https://github.com/dgnest/ansible-role-common/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
-</span>
 
 
 ## Requirements
@@ -56,12 +53,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
-Made with :heart: ️:coffee:️ and :pizza: by [dgnest][link-company].
+Made with :heart: :coffee: and :pizza: by [dgnest][link-company]
 
 - [All Contributors][link-contributors]
 
-
-<!-- Other -->
 
 [link-luis]: https://github.com/luismayta
 [link-contributors]: AUTHORS
