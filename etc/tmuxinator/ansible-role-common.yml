@@ -34,44 +34,35 @@ windows:
       panes:
         - editor:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
             - <%= ENV["EDITOR"] %>
         - docker:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
   - python:
       layout: main-vertical
       panes:
         - python:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
             - ipython
   - databases:
       layout: main-vertical
       panes:
         - postgresql:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
         - shell:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
   - docker:
       layout: main-vertical
       panes:
         - docker:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
         - shell:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
   - tools:
       layout: main-vertical
       panes:
         - watch:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
             - make watch
         - grip:
             - pyenv activate ansible-role-common
-            - gvm pkgset use ansible-role-common
             - make grip
