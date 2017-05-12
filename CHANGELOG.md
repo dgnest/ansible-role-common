@@ -4,8 +4,11 @@ This file uses change log convention from [Keep a CHANGELOG](http://keepachangel
 
 ## [Unreleased]
 
+## [0.0.7] - 2017-05-12
 
-[Unreleased]: https://github.com/dgnest/ansible-role-common/compare/0.0.6...HEAD
+
+[Unreleased]: https://github.com/dgnest/ansible-role-common/compare/0.0.7...HEAD
+[0.0.7]: https://github.com/dgnest/ansible-role-common/compare/0.0.6...0.0.7
 [0.0.6]: https://github.com/dgnest/ansible-role-common/compare/0.0.5...0.0.6
 [0.0.5]: https://github.com/dgnest/ansible-role-common/compare/0.0.4...0.0.5
 [0.0.4]: https://github.com/dgnest/ansible-role-common/compare/0.0.3...0.0.4
