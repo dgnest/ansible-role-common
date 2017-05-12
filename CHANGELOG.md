@@ -2,10 +2,10 @@
 All notable changes to this project will be documented in this file.
 This file uses change log convention from [Keep a CHANGELOG](http://keepachangelog.com).
 
-## [Unreleased][unreleased]
+## [Unreleased]
 
 
-[unreleased]: https://github.com/dgnest/ansible-role-common/compare/0.0.6...HEAD
+[Unreleased]: https://github.com/dgnest/ansible-role-common/compare/0.0.6...HEAD
 [0.0.6]: https://github.com/dgnest/ansible-role-common/compare/0.0.5...0.0.6
 [0.0.5]: https://github.com/dgnest/ansible-role-common/compare/0.0.4...0.0.5
 [0.0.4]: https://github.com/dgnest/ansible-role-common/compare/0.0.3...0.0.4
