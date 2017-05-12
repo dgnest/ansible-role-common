@@ -42,6 +42,14 @@ To install a specific version:
       roles:
          - { role: dgnest.common }
 
+To install packages pip:
+
+  ```yaml
+  common_pip_packages:
+    - name: celery
+      version: 4.0.2
+  ```
+
 
 ## Changelog
 
