@@ -16,4 +16,4 @@
     name="{{ item.name }}"
     version="{{ item.version }}"
   when: common_pip_packages is defined
-  with_items: "{{ common_pip_packages | default({}) }}"
+  with_items: "{{ common_pip_packages | default([]) }}"
