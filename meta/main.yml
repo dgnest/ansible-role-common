@@ -4,7 +4,7 @@ galaxy_info:
   author: Luis Mayta
   description: Ansible role to install Common
   company: DgNEST
-  version: 0.0.7
+  version: 0.0.8
   license: Mit
   min_ansible_version: 2.0
   platforms:
