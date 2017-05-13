@@ -2,7 +2,9 @@
 
 - name: Install pip
   become: true
-  package: name=python-pip state=present
+  easy_install:
+    name=pip
+    state=latest
   when: common_pip_packages is defined
 
 - name: Install or Upgrade pip
